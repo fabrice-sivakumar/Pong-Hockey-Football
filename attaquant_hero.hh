@@ -24,3 +24,4 @@ class Attaquant_Hero: public Attaquant{
   size_t _spe;
 };
 
+

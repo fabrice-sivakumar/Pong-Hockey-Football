@@ -58,8 +58,14 @@ void Ballon::update() {
 
 void Ballon::manage_collision(Joueur &player) {
         if(player.getSprite().getGlobalBounds().intersects(ball_sprite.getGlobalBounds())) {
-        ball_velocity.x = player.Get_velocity().x;
-        ball_velocity.y = player.Get_velocity().y;
+        if(player.Get_velocity().x==0){
+                ball_velocity.x = -ball_velocity.x;
+               ball_velocity.y = player.Get_velocity().y; 
+        }
+        else{
+               ball_velocity.x = player.Get_velocity().x;
+               ball_velocity.y = player.Get_velocity().y;
+        }
         if (ball_velocity.x > 0)
             ball_velocity.x += ball_acceleration;
         else

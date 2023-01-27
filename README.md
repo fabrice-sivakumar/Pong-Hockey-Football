@@ -1,4 +1,5 @@
 # Pong-Hockey-Football
+![alt text](https://github.com/fabrice-sivakumar/Pong-Hockey-Football/blob/main/phf.png)
 
 Le jeu Pong-Hockey-Football (PHF) est un jeu comme son nom l'indique un mixte entre le hockey sur table, le pong et le football. C'est un jeu qui se joue à 2 localement sur une même machine. Le but du jeu est de marquer 3 buts avant son adversaire. Dans ce jeu, chaque joueur contrôle un gardien et un attaquant.Les personnages sont des pions portant le drapeau d’un pays que le joueur peut choisir parmi la liste proposée. Les joueurs peuvent également choisir la carte sur laquelle ils veulent jouer. 
 

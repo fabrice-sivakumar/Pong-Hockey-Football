@@ -25,3 +25,8 @@ class Attaquant: public Joueur{
  
 };
 
+/*std::ostream& operator<<(std::ostream& os, const Attaquant &e)
+{
+  os << e.allInfo();
+  return os;
+}*/

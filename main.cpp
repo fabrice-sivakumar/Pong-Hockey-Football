@@ -52,7 +52,7 @@ cout << "Test d'un attaquant fini'" << ::endl;
 //Test Goal
 
 cout << "Test d'un goal'" << ::endl;
-Goalkeeper_Normal goal1("KyKy","Bondy",250,200,"pays/france.png");
+Goalkeeper_Normal goal1("Lloris","Mandanda",250,200,"pays/france.png");
 assert(goal1.getNbJoueur() == 3);
 assert(attaquant.getNbJoueur() == 3);
 assert(goal1.getX() == 250);
@@ -105,16 +105,16 @@ cout << "Test d'un goal fini'" << ::endl;
     
     //Charger le joueur
 
-    Goalkeeper_Hero player("KyKy","Bondy",0,200,"pays/"+jeu.Get_Pays1());
-    Goalkeeper_Hero player2("KyKy","Bondy",721,200,"pays/"+jeu.Get_Pays2());
-    Attaquant_Hero player1("kk","jj",250,200,"pays/"+jeu.Get_Pays1());
-    Attaquant_Hero player3("kk","jj",400,200,"pays/"+jeu.Get_Pays2());
+    Goalkeeper_Hero player("James","Bond",0,200,"pays/"+jeu.Get_Pays1());
+    Goalkeeper_Hero player2("Dark","Vador",721,200,"pays/"+jeu.Get_Pays2());
+    Attaquant_Hero player1("Le chat","potté",250,200,"pays/"+jeu.Get_Pays1());
+    Attaquant_Hero player3("Le loup","garou",400,200,"pays/"+jeu.Get_Pays2());
 
 
-    Goalkeeper_Normal player_normal("KyKy","Bondy",0,200,"pays/"+jeu.Get_Pays1());
-    Goalkeeper_Normal player2_normal("KyKy","Bondy",721,200,"pays/"+jeu.Get_Pays2());
-    Attaquant_Normal player1_normal("kk","jj",250,200,"pays/"+jeu.Get_Pays1());
-    Attaquant_Normal player3_normal("kk","jj",400,200,"pays/"+jeu.Get_Pays2());
+    Goalkeeper_Normal player_normal("James","Bond",0,200,"pays/"+jeu.Get_Pays1());
+    Goalkeeper_Normal player2_normal("Dark","Vador",721,200,"pays/"+jeu.Get_Pays2());
+    Attaquant_Normal player1_normal("Le chat","potté",250,200,"pays/"+jeu.Get_Pays1());
+    Attaquant_Normal player3_normal("Le loup","garou",400,200,"pays/"+jeu.Get_Pays2());
 
 
 

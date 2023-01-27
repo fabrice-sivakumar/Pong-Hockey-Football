@@ -11,9 +11,7 @@ std::string Joueur::allInfo() const
 {
   string str;
   str+=_prenom;
-  str+= "," +_nom;
-  str+= "," + to_string(_x);
-  str+= "," + to_string(_y);
+  str+= " " +_nom;
   return str;
 }
 

@@ -15,7 +15,7 @@ std::string Attaquant::allInfo() const
   str+= Joueur::allInfo();
   str+=",";
   str+=_poste;
-  str+", Nombre de but(s) : ";
+  str+=", Nombre de but(s) : ";
   str+=std::to_string(_NbBut);
   return str;
 }

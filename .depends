@@ -1,0 +1,14 @@
+ballon.o: ballon.cpp
+joueur.o: joueur.cpp joueur.hh
+attaquant_normal.o: attaquant_normal.cpp attaquant_normal.hh attaquant.hh \
+ joueur.hh
+attaquant_hero.o: attaquant_hero.cpp attaquant_hero.hh ballon.hh \
+ joueur.hh attaquant.hh
+goal_normal.o: goal_normal.cpp goal_normal.hh goal.hh joueur.hh
+goal_hero.o: goal_hero.cpp goal_hero.hh goal.hh joueur.hh
+attaquant.o: attaquant.cpp attaquant.hh joueur.hh
+Jeu.o: Jeu.cpp Jeu.hh joueur.hh ballon.hh attaquant_hero.hh attaquant.hh \
+ goal_hero.hh goal.hh attaquant_normal.hh goal_normal.hh
+goal.o: goal.cpp goal.hh joueur.hh
+main.o: main.cpp ballon.hh joueur.hh attaquant_hero.hh attaquant.hh \
+ goal_hero.hh goal.hh attaquant_normal.hh goal_normal.hh Jeu.hh

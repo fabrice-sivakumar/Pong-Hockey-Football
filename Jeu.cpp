@@ -125,7 +125,7 @@ void Jeu::start(Ballon &ball, sf::RenderWindow &window,int gameStartDelay,int ga
 }
 
 
-bool Jeu::check_goal(Ballon &ball,Joueur &player,Joueur &player1,Joueur &player2,Joueur &player3,sf::RenderWindow &window,int &gameStartCounter){
+bool Jeu::check_goal(Ballon &ball,Joueur &player,Attaquant &player1,Joueur &player2,Attaquant &player3,sf::RenderWindow &window,int &gameStartCounter){
 
         //Verification si le ballon est dans la zone de but
         float ballWidth = ball.getsprite().getGlobalBounds().width;
@@ -142,10 +142,17 @@ bool Jeu::check_goal(Ballon &ball,Joueur &player,Joueur &player1,Joueur &player2
             player2.setPosition(721, 200);
             player3.setPosition(400, 200);
             compt_J2++;
+            player3.SetBut();
+            cout<<"Buuuuuut de"<< endl;
+            cout<<player3<<endl;
             cout<< " ______________________________" << endl;
             cout << "|                              |" <<endl;
             cout << " " << "Equipe 1" << "|" << to_string(compt_J1) << "  |  " <<to_string(compt_J2) << "|" << "Equipe 2" << "   " << endl;
             cout << "|______________________________|" << endl;
+            if(compt_J2==3){
+                cout<<"Félicitation Joueur 2, tu as gagné la partie "<<compt_J2<<" à "<<compt_J1<<endl;
+                window.close();
+            }
             return true;
         }
 
@@ -162,10 +169,17 @@ bool Jeu::check_goal(Ballon &ball,Joueur &player,Joueur &player1,Joueur &player2
             player2.setPosition(721, 200);
             player3.setPosition(400, 200);
             compt_J1++;
+            player1.SetBut();
+            cout<<"Buuuuuut de"<< endl;
+            cout<<player1<<endl;
             cout<< " ______________________________" << endl;
             cout << "|                              |" <<endl;
             cout << "| " << "Equipe 1" << "|" << to_string(compt_J1) << "  |  " <<to_string(compt_J2) << "|" << "Equipe 2" << "   " << endl;
             cout << "|______________________________|" << endl;
+            if(compt_J1==3){
+                cout<<"Félicitaion Joueur 1, tu as gagné la partie "<<compt_J1<<" à "<<compt_J2<<endl;
+                window.close();
+            }
             return true;
         }
         return false;

@@ -25,7 +25,7 @@ public:
   virtual std::string allInfo() const;
   void borderlimits(const sf::RenderWindow &window);
   bool getJoueuractif1(){return joueuractif1;}  
-  void setPosition(float x,float y){sprite.setPosition(x, y);}
+  void setPosition(float x,float y){sprite.setPosition(x, y);_x=x;_y=y;}
   int getNbJoueur(){return _nbJoueur;}
 private:
 

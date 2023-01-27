@@ -28,7 +28,7 @@ class Jeu{
  void Choix_Joueur2();
  void Choix_Map();
  void start(Ballon &ball, sf::RenderWindow &window,int gameStartDelay,int gameStartCounter);
- bool check_goal(Ballon &ball,Joueur &joueurr1,Joueur &joueur2,Joueur &joueur3,Joueur &joueur4,sf::RenderWindow &window,int &gameStartCounter);
+ bool check_goal(Ballon &ball,Joueur &joueurr1,Attaquant &joueur2,Joueur &joueur3,Attaquant &joueur4,sf::RenderWindow &window,int &gameStartCounter);
  int Choix_Mode();
  bool afficher_regles();
 

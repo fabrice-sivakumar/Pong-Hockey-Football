@@ -1,0 +1,41 @@
+										PHF(PONG HOCKEY FOOTBALL)
+                                              ###                        ###                                   ###                        ##     ###                ###      ###
+                                               ##                         ##                                  ## ##                       ##      ##                 ##       ##
+ ######    ####    #####     ### ##            ##       ####     ####     ##  ##   ####    ##  ##              #       ####     ####     #####    ##       ####      ##       ##
+  ##  ##  ##  ##   ##  ##   ##  ##             #####   ##  ##   ##  ##    ## ##   ##  ##   ##  ##            ####     ##  ##   ##  ##     ##      #####       ##     ##       ##
+  ##  ##  ##  ##   ##  ##   ##  ##             ##  ##  ##  ##   ##        ####    ######   ##  ##             ##      ##  ##   ##  ##     ##      ##  ##   #####     ##       ##
+  #####   ##  ##   ##  ##    #####             ##  ##  ##  ##   ##  ##    ## ##   ##        #####             ##      ##  ##   ##  ##     ## ##   ##  ##  ##  ##     ##       ##
+  ##       ####    ##  ##       ##            ###  ##   ####     ####     ##  ##   #####       ##            ####      ####     ####       ###   ######    #####    ####     ####
+ ####                       #####                                                          #####
+
+[Règles du jeu]
+
+Ce jeu est un jeu de football un peu mélangé à du pong et le jeu de hockey sur table. 
+Il s'agit d'un jeu qui se joue à deux joueurs sur un ordinateur.
+Le but du jeu: Marquer 3 buts à son adversaire
+Chaque joueur contrôle un gardien et un attaquant. 
+Il ne peut que contrôler que soit le gardien ou soit l'attaquant. 
+
+[Touches/Commandes] 
+
+Joueur 1(Joueur de gauche):
+
+Changer de l'attaquant au gardien :V
+Changer du gardien à l'attaquant au gardien:C
+Haut: Z
+Bas:S
+Droite:D
+Gauche:Q
+Coup spécial:W
+
+Joueur 2(Joueur de droite):
+
+Changer de l'attaquant au gardien :K
+Changer du gardien à l'attaquant au gardien:L
+Haut: Flèche haut
+Bas: Flèche bas
+Droite: Flèche droite
+Gauche: Flèche gauche
+Coup spécial: M
+
+Amusez-vous !

@@ -12,12 +12,6 @@ class Goalkeeper_Hero: public Goalkeeper{
 size_t get_spe(){
     return _spe;
  }
- void set_spe(){
-    if(_spe==0)
-        _spe=1;
-    else
-        _spe=0;
- };
  private:
 std::string _capacite;
 size_t _spe;

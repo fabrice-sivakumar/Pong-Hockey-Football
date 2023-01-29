@@ -50,6 +50,7 @@ Vous pourrez aussi avoir accès aux règles du jeu et aux commandes dans le fich
 ## Jouabilité
 Après avoir téléchargé le dossier et la librairie SFML, il suffit de faire un `make` puis exécuter l'exécutable: `./app`
 Différents choix et questions seront posés sur le terminal pour afficher ou pas les règles,choisir le pays représenté et choisir le terrain parmi une liste.
+Si la vitesse de la balle et des joueurs sont trop rapides, essayer d'ajuster la valeur des champs ***acceleration*** et ***maxSpeed*** (en divisant par 2 par exemple) dans les constructeurs de Joueur et Ballon qui se trouvent dans les fichiers  _Joueur.cpp_ et _ballon.cpp_ .
 
 ## Tests
 Divers tests sur les gardiens et les attaquants sont effectuées au début du programme grâce à des assert pour vérifier le bon fonctionnement des fonctions tels que les setters et getters.
